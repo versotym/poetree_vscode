@@ -4,6 +4,7 @@
   "displayName": "PoeTree",
   "icon": "images/icon.png",
   "description": "Syntax highlighting for PoeTree simple source files",
+  "repository": "https://github.com/versotym/poetree_vscode",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.83.1"
