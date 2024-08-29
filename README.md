@@ -6,7 +6,7 @@ Extension for [Visual Studio Code](https://code.visualstudio.com/) enabling easi
 
 ## Syntax Highlighting
 
-![overview](./images/screenshot_all.png)
+<img src="./images/screenshot_all.png" width="500">
 
 * Colorcoding metadata keys and values (@key: value)
 * Highlighting poem titles (# Title)
@@ -14,8 +14,8 @@ Extension for [Visual Studio Code](https://code.visualstudio.com/) enabling easi
 
 ## Snippets
 
-![snippet1](./images/screenshot_snippet1.png)
-![snippet2](./images/screenshot_snippet2.png)
+<img src="./images/screenshot_snippet1.png" width="700">
+<img src="./images/screenshot_snippet2.png" width="700">
 
 Add metadata keys easier with autocomplete function:
 * @a > @author: 
