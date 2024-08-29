@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "poetree",
+	"patterns": [
+		{
+			"include": "#metadata"
+		},
+		{
+			"include": "#poem_title"
+		},
+		{
+			"include": "#suspicious_chars"
+		}
+
+	],
+	"repository": {
+
+
+	
+		"metadata": {
+			"match": "(@author|@title|@year|@publisher|@place|@year_created|@origin):(.*?)\n",
+			"captures": {
+				"1": {"name": "keyword.metadata.key"},
+				"2": {"name": "string.quoted.metadata.val"}
+			}
+		},
+	
+		"poem_title": {
+			"name": "comment.block.title",
+			"begin": "#",
+			"end": "\n"
+		},
+		"suspicious_chars": {
+			"match": "[0-9]|\\@|\\#|\\$|\\^|\\%|\\&|\\*|\\§",
+			"name": "invalid.illegal"
+		}
+	},
+	"scopeName": "source.poetree"
+}

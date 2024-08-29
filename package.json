@@ -1,0 +1,33 @@
+{
+  "name": "poetree",
+  "publisher": "petrplechac",
+  "displayName": "PoeTree",
+  "icon": "images/icon.png",
+  "description": "Syntax highlighting for PoeTree simple source files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.1"
+  },
+  "categories": [
+    "Programming Languages", "Snippets"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "PoeTree",
+      "aliases": ["PoeTree", "poetree"],
+      "extensions": [".poetree"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "PoeTree",
+      "scopeName": "source.poetree",
+      "path": "./syntaxes/poetree.tmLanguage.json"
+    }],
+    "snippets": [
+      {
+        "language": "PoeTree",
+        "path": "./snippets.json"
+      }
+    ]
+  }
+}

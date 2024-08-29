@@ -1,0 +1,32 @@
+{
+  "author": {
+    "prefix": "@a",
+    "body": "@author: ",
+    "description": "book's author"
+  },
+  "title": {
+    "prefix": "@t",
+    "body": "@title: ",
+    "description": "book's title"
+  },  
+  "year": {
+    "prefix": "@y",
+    "body": "@year: ",
+    "description": "year when book published"
+  },    
+  "publisher": {
+    "prefix": "@p",
+    "body": "@publisher: ",
+    "description": "book's publisher"
+  },   
+  "place": {
+    "prefix": "@p",
+    "body": "@place: ",
+    "description": "place where book published"
+  },         
+  "year_created": {
+    "prefix": "@y",
+    "body": "@year_created: ",
+    "description": "year when poem created (optional, uncommon)"
+  }   
+}
